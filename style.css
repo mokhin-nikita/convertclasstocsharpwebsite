@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(90deg, #432357, #a56a42);
+    color: white;   
+}
+button, select{
+    border: none;
+    background: transparent;
+    color: white;
+}
+.format-class{
+    display: flex;
+    gap: 10px;
+}
+select#modifier option {
+    background-color: #432357;
+}
+select#modifier, button.btn-static{
+    border: 2px solid #ffffff;
+    padding: 8px;
+    border-radius: 8px;
+}
+button.btn-static, button.btn-generate, button.BtnAddFunction, button.BtnAddField, button.btnDelete{
+    cursor: pointer;
+}
+button.btn-static.active{
+    background-color: rgba(23, 45, 87, .5);
+}
+button.btn-generate{
+    background-color: #ed9e0c;
+    padding: 8px;
+    border-radius: 8px;
+}
+button.BtnAddFunction, button.BtnAddField{
+    padding: 8px;
+    background-color: #a56a42;
+    border-radius: 8px;
+}
+button.btnDelete{
+    padding: 8px;
+    background-color: red;
+    border-radius: 8px;
+}
+button.btn-generate.generated{
+    background-color: #76a900;
+}
+input[type="text"]{
+  border: 2px solid white;
+  background: rgba(0,0,0,.5);
+  border-radius: 6px;
+  color: white;
+  padding: 8px;
+}
+select#modifier option[selected]{
+    color: white;
+}

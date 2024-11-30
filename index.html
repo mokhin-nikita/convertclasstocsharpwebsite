@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="format-class">
+            <select name="modifier" id="modifier">
+                <option value="internal" selected>internal</option>
+                <option value="private">private</option>
+                <option value="protected">protected</option>
+                <option value="public">public</option>
+            </select>
+            <input type="text" id="className">
+        </div>
+  <br>
+        <div class="format-class"><button class="BtnAddFunction">Add Function</button><button class="BtnAddField" onclick="AddField()">Add Field</button></div>
+  <br>
+        <div class="inside">
+            
+        </div>
+  <br>
+        <div class="format-class">
+            <input type="text" id="typeName">
+            <input type="text" id="fieldName">
+        </div>
+  <br>
+        <button class="btn-generate">Generate</button>
+    </div>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
